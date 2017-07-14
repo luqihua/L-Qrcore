@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/QRcode.iml" filepath="$PROJECT_DIR$/QRcode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qrcore.iml" filepath="$PROJECT_DIR$/qrcore.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/zxingcore/zxingcore.iml" filepath="$PROJECT_DIR$/zxingcore/zxingcore.iml" />
     </modules>
