@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lib-zxingcore/zxingcore.iml" filepath="$PROJECT_DIR$/lib-zxingcore/zxingcore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-zxingcore/lib-zxingcore.iml" filepath="$PROJECT_DIR$/lib-zxingcore/lib-zxingcore.iml" />
       <module fileurl="file://$PROJECT_DIR$/libQrcore.iml" filepath="$PROJECT_DIR$/libQrcore.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+      <module fileurl="file://F:\Android\Demo\libQrcore\lib-zxingcore\zxingcore.iml" filepath="F:\Android\Demo\libQrcore\lib-zxingcore\zxingcore.iml" />
     </modules>
   </component>
 </project>
