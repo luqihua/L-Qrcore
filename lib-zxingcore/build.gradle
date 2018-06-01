@@ -1,10 +1,9 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion COMPILE_SDK_VERSION
 
     defaultConfig {
-        applicationId "lu.sample"
         minSdkVersion MIN_SDK_VERSION
         targetSdkVersion TARGET_SDK_VERSION
         versionCode 1
@@ -23,7 +22,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
     implementation "com.android.support:appcompat-v7:${SUPPORT_SDK_VERSION}"
-    compile project(':lib-zxingcore')
 }

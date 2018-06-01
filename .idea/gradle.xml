@@ -3,13 +3,14 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="F:\Android\Android Studio\gradle\gradle-4.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/lib-zxingcore" />
             <option value="$PROJECT_DIR$/sample" />
-            <option value="$PROJECT_DIR$/zxingcore" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
