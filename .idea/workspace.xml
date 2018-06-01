@@ -9,7 +9,146 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="581bbf28-b489-4d9b-99bd-79175b2431b6" name="Default" comment="" />
+    <list default="true" id="581bbf28-b489-4d9b-99bd-79175b2431b6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/drawable/mine_fill.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/drawable/qr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/libs/core.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/drawable-xhdpi/lan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/drawable-xhdpi/lights.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/drawable-xhdpi/pic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/raw/zxing_beep.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/import-summary.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/proguard-rules.pro" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/androidTest/java/lu/sample/ExampleInstrumentedTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/java/lu/sample/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/layout/activity_main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/values/colors.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/main/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/test/java/lu/sample/ExampleUnitTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/proguard-rules.pro" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/androidTest/java/lu/zxingandroid/ExampleInstrumentedTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/google/zxing/client/android/AmbientLightManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/google/zxing/client/android/BeepManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/google/zxing/client/android/DecodeFormatManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/google/zxing/client/android/DecodeHintManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/google/zxing/client/android/InactivityTimer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/google/zxing/client/android/Intents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/google/zxing/client/android/camera/CameraConfigurationUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/google/zxing/client/android/camera/open/OpenCameraInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/google/zxing/integration/android/IntentIntegrator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/google/zxing/integration/android/IntentResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/BarcodeCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/BarcodeEncoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/BarcodeResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/BarcodeView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/CameraPreview.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/CaptureActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/CaptureManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/CompoundBarcodeView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/Decoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/DecoderFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/DecoderResultPointCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/DecoderThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/DecoratedBarcodeView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/DefaultDecoderFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/InvertedDecoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/RotationCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/RotationListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/Size.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/SourceData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/ViewfinderView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/camera/AutoFocusManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/camera/CameraInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/camera/CameraManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/camera/CameraSettings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/camera/CameraSurface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/camera/CameraThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/camera/CenterCropStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/camera/DisplayConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/camera/FitCenterStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/camera/FitXYStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/camera/LegacyPreviewScalingStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/camera/PreviewCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/journeyapps/barcodescanner/camera/PreviewScalingStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/lu/util/QRScannerHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/lu/util/QRSpotHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/java/com/lu/util/QRUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/layout/zxing_barcode_scanner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/layout/zxing_capture.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-ar/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-bg/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-ca/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-cs/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-da/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-de/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-el/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-es/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-eu/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-fi/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-fr/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-he/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-hi/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-hu/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-id/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-it/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-iw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-ja/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-ko/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-nl/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-pl/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-pt/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-ro/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-ru/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-sk/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-sl/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-sv/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-th/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-tr/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-uk/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-v11/zxing_themes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-zh-rCN/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-zh-rHK" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values-zh-rTW/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values/zxing_attrs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values/zxing_colors.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values/zxing_ids.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values/zxing_strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/main/res/values/zxing_themes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zxingcore/src/test/java/lu/zxingandroid/ExampleUnitTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="qrcore.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -3369,7 +3508,20 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libQrcore" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -3470,7 +3622,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527845943760" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527846127078" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3518,7 +3670,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527845943760" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527846127079" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3701,7 +3853,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527845943761" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527846127079" />
       </method>
     </configuration>
     <list size="1">
@@ -3743,37 +3895,37 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1810842" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2758216" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2758216" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
