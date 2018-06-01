@@ -1,4 +1,4 @@
-package com.lu.util;
+package com.qrcore.util;
 
 import android.app.Activity;
 import android.content.Intent;

@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.zxing.Result;
-import com.lu.util.QRSpotHelper;
+import com.qrcore.util.QRSpotHelper;
 
 import lu.zxingandroid.R;
 

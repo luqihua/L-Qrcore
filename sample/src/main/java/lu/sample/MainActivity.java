@@ -16,8 +16,8 @@ import com.google.zxing.ChecksumException;
 import com.google.zxing.FormatException;
 import com.google.zxing.NotFoundException;
 import com.google.zxing.Result;
-import com.lu.util.QRScannerHelper;
-import com.lu.util.QRUtil;
+import com.qrcore.util.QRScannerHelper;
+import com.qrcore.util.QRUtil;
 
 public class MainActivity extends AppCompatActivity {
     private ImageView mCodeView;

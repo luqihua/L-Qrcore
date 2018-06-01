@@ -1,4 +1,4 @@
-package com.lu.util;
+package com.qrcore.util;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -66,7 +66,8 @@ public class QRSpotHelper {
     public void onActivityResult(final int requestCode, int resultCode, Intent data) {
         if (resultCode == RESULT_OK && requestCode == CHECK_PHOTO) {
             final Uri uri = data.getData();
-            mSpotThread = new SpotThread(mHandler, getBmFromUri(uri));
+            final Bitmap bitmap = getBmFromUri(uri);
+            mSpotThread = new SpotThread(mHandler, bitmap);
             mSpotThread.start();
             mHandler.postDelayed(new Runnable() {
                 @Override
@@ -177,29 +178,28 @@ public class QRSpotHelper {
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
             QRSpotHelper helper = weakReference.get();
-            if (helper != null) {
+            if (helper == null) return;
 
-                switch (msg.what) {
-                    case HANDLER_START:
-                        helper.mOnSpotCallBack.onSpotStart();
-                        break;
-                    case HANDLER_SUCCESS:
+            switch (msg.what) {
+                case HANDLER_START:
+                    helper.mOnSpotCallBack.onSpotStart();
+                    break;
+                case HANDLER_SUCCESS:
 
-                        Result result = (Result) msg.obj;
-                        if (result != null) {
-                            helper.mOnSpotCallBack.onSpotSuccess(result);
-                        } else {
-                            helper.mOnSpotCallBack.onSpotError();
-                        }
+                    Result result = (Result) msg.obj;
+                    if (result != null) {
+                        helper.mOnSpotCallBack.onSpotSuccess(result);
+                    } else {
+                        helper.mOnSpotCallBack.onSpotError();
+                    }
 
-                        break;
-                    case HANDLER_ERROR:
-                        if (helper.mSpotThread != null && !helper.mSpotThread.isCancel()) {
-                            helper.mSpotThread.setCancel(true);
-                            helper.mOnSpotCallBack.onSpotError();
-                        }
-                        break;
-                }
+                    break;
+                case HANDLER_ERROR:
+                    if (helper.mSpotThread != null && !helper.mSpotThread.isCancel()) {
+                        helper.mSpotThread.setCancel(true);
+                    }
+                    helper.mOnSpotCallBack.onSpotError();
+                    break;
             }
         }
     }

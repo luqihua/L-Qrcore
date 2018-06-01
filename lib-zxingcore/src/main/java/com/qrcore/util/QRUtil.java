@@ -1,4 +1,4 @@
-package com.lu.util;
+package com.qrcore.util;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
