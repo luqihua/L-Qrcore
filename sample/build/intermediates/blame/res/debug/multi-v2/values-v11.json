@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Android\\Demo\\libQrcore\\sample\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "/Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "F:\\Android\\Demo\\libQrcore\\lib-zxingcore\\build\\intermediates\\bundles\\debug\\res\\values-v11\\values-v11.xml",
+                    "source": "/Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/packaged_res/debug/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

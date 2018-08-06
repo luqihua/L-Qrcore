@@ -48,7 +48,7 @@ public class ViewfinderView extends View {
     protected static final String TAG = ViewfinderView.class.getSimpleName();
 
     protected static final int[] SCANNER_ALPHA = {0, 64, 128, 192, 255, 192, 128, 64};
-    protected static final long ANIMATION_DELAY = 80L;
+    protected static final long ANIMATION_DELAY = 50L;
     protected static final int CURRENT_POINT_OPACITY = 0xA0;
     protected static final int MAX_RESULT_POINTS = 20;
     protected static final int POINT_SIZE = 6;
@@ -274,7 +274,7 @@ public class ViewfinderView extends View {
     //滑动条相关属性
     private Bitmap mLineBm;//滑动条图片
     private RectF mLineReact;//滑动条区域
-    private final int mStepSize = 12;//滑动条每次滑动的速度
+    private final int mStepSize = 6;//滑动条每次滑动的速度
     private final int mLineHeight = 30;//滑动条的高度
     private boolean isBottom = false;//滑动条是否滑动到扫码框底部
 

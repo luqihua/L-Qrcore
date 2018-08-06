@@ -1,10 +1,14 @@
 package lu.sample;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
@@ -24,13 +28,31 @@ public class MainActivity extends AppCompatActivity {
     private QRScannerHelper mScannerHelper;
     private EditText mContentView;
 
+    private boolean hasCameraPermission = true;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
         initQRScanner();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            requestPermissions(new String[]{Manifest.permission.CAMERA
+                    , Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
+        }
+    }
 
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == 1) {
+            int len = permissions.length;
+            for (int i = 0; i < len; i++) {
+                if (grantResults[i] != PackageManager.PERMISSION_GRANTED) {
+                    hasCameraPermission = false;
+                }
+            }
+        }
     }
 
     private void initView() {
@@ -57,6 +79,10 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void start(View view) {
+        if (!hasCameraPermission) {
+            Toast.makeText(this, "需要先打开相机权限", Toast.LENGTH_SHORT).show();
+            return;
+        }
         mScannerHelper.startScanner();
     }
 
