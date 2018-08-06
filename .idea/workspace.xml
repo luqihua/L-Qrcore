@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c2b3116-98c4-46e1-bfc7-b3bfb8fd0f36" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
@@ -36,7 +37,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/org_hamcrest_hamcrest_core_1_3_jar.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
@@ -47,26 +47,12 @@
       <change beforePath="$PROJECT_DIR$/import-summary.txt" afterPath="$PROJECT_DIR$/import-summary.txt" />
       <change beforePath="$PROJECT_DIR$/lib-zxingcore/.gitignore" afterPath="$PROJECT_DIR$/lib-zxingcore/.gitignore" />
       <change beforePath="$PROJECT_DIR$/lib-zxingcore/build.gradle" afterPath="$PROJECT_DIR$/lib-zxingcore/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/arch/core/R.java" afterPath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/arch/core/R.java" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/arch/lifecycle/R.java" afterPath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/arch/lifecycle/R.java" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/arch/lifecycle/livedata/core/R.java" afterPath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/arch/lifecycle/livedata/core/R.java" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/arch/lifecycle/viewmodel/R.java" afterPath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/arch/lifecycle/viewmodel/R.java" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/compat/R.java" afterPath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/compat/R.java" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/coreui/R.java" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/coreutils/R.java" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/fragment/R.java" afterPath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/fragment/R.java" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/graphics/drawable/R.java" afterPath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/graphics/drawable/R.java" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/lu/zxingandroid/R.java" afterPath="$PROJECT_DIR$/lib-zxingcore/build/generated/source/r/debug/lu/zxingandroid/R.java" />
       <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/attr/R.txt" afterPath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/attr/R.txt" />
       <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/bundles/debug/res/layout/zxing_barcode_scanner.xml" afterPath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/bundles/debug/res/layout/zxing_barcode_scanner.xml" />
       <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/bundles/debug/res/layout/zxing_capture.xml" afterPath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/bundles/debug/res/layout/zxing_capture.xml" />
       <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
       <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/manifests/aapt/debug/output.json" afterPath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/manifests/aapt/debug/output.json" />
-      <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/manifests/full/debug/output.json" afterPath="$PROJECT_DIR$/lib-zxingcore/build/intermediates/manifests/full/debug/output.json" />
       <change beforePath="$PROJECT_DIR$/lib-zxingcore/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/lib-zxingcore/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change beforePath="$PROJECT_DIR$/lib-zxingcore/lib-zxingcore.iml" afterPath="$PROJECT_DIR$/lib-zxingcore/lib-zxingcore.iml" />
@@ -163,19 +149,7 @@
       <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change beforePath="$PROJECT_DIR$/sample/.gitignore" afterPath="$PROJECT_DIR$/sample/.gitignore" />
       <change beforePath="$PROJECT_DIR$/sample/build.gradle" afterPath="$PROJECT_DIR$/sample/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/arch/core/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/arch/core/R.java" />
-      <change beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/arch/lifecycle/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/arch/lifecycle/R.java" />
-      <change beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/arch/lifecycle/livedata/core/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/arch/lifecycle/livedata/core/R.java" />
-      <change beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/arch/lifecycle/viewmodel/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/arch/lifecycle/viewmodel/R.java" />
-      <change beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/compat/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/compat/R.java" />
-      <change beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/coreui/R.java" />
-      <change beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/coreutils/R.java" />
-      <change beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/fragment/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/fragment/R.java" />
-      <change beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/graphics/drawable/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/graphics/drawable/R.java" />
-      <change beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" />
-      <change beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/lu/sample/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/lu/sample/R.java" />
-      <change beforePath="$PROJECT_DIR$/sample/build/generated/source/r/debug/lu/zxingandroid/R.java" afterPath="$PROJECT_DIR$/sample/build/generated/source/r/debug/lu/zxingandroid/R.java" />
       <change beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi-v2/debug.json" />
       <change beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi-v2/values-af.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi-v2/values-af.json" />
       <change beforePath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi-v2/values-am.json" afterPath="$PROJECT_DIR$/sample/build/intermediates/blame/res/debug/multi-v2/values-am.json" />
