@@ -4,6 +4,16 @@
             "outputFile": "/Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml",
             "map": [
                 {
+                    "source": "/Users/luqihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0300e7d519a9f3c4228ea313f3eab581/res/values-cs/values-cs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,314,423,509,614,731,812,893,977,1081,1190,1289,1395,1505,1612,1775,1873",
+                        "endColumns": "106,101,108,85,104,116,80,80,83,103,108,98,105,109,106,162,97,81",
+                        "endOffsets": "207,309,418,504,609,726,807,888,972,1076,1185,1284,1390,1500,1607,1770,1868,1950"
+                    }
+                },
+                {
                     "source": "/Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/packaged_res/debug/values-cs/values-cs.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -21,7 +31,7 @@
                     }
                 },
                 {
-                    "source": "/Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/5aa538a611ad4fe8d29b7505050ecf4e/res/values-cs/values-cs.xml",
+                    "source": "/Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/423f43003b22898895946842df089892/res/values-cs/values-cs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -35,16 +45,6 @@
                         "startOffsets": "1955",
                         "endColumns": "100",
                         "endOffsets": "2051"
-                    }
-                },
-                {
-                    "source": "/Users/luqihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/aac475d6f248898469d94d17f630268f/res/values-cs/values-cs.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,212,314,423,509,614,731,812,893,977,1081,1190,1289,1395,1505,1612,1775,1873",
-                        "endColumns": "106,101,108,85,104,116,80,80,83,103,108,98,105,109,106,162,97,81",
-                        "endOffsets": "207,309,418,504,609,726,807,888,972,1076,1185,1284,1390,1500,1607,1770,1868,1950"
                     }
                 }
             ]

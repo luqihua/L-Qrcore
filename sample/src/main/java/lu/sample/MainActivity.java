@@ -6,14 +6,18 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.text.format.Formatter;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.zxing.ChecksumException;
@@ -28,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private QRScannerHelper mScannerHelper;
     private EditText mContentView;
 
+    private TextView tvScannerResultV;
     private boolean hasCameraPermission = true;
 
     @Override
@@ -58,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
     private void initView() {
         mCodeView = (ImageView) findViewById(R.id.image);
         mContentView = (EditText) findViewById(R.id.content);
+        tvScannerResultV = findViewById(R.id.tv_scanner_result);
     }
 
     /**
@@ -68,7 +74,13 @@ public class MainActivity extends AppCompatActivity {
         mScannerHelper.setCallBack(new QRScannerHelper.OnScannerCallBack() {
             @Override
             public void onScannerBack(String result) {
-                Toast.makeText(MainActivity.this, result, Toast.LENGTH_SHORT).show();
+                if (result == null) {
+                    Log.d("MainActivity", "解析失败");
+                    tvScannerResultV.setText("解析失败");
+                    return;
+                }
+                Log.d("MainActivity", "解析结果："+result);
+                tvScannerResultV.setText(result);
             }
         });
     }

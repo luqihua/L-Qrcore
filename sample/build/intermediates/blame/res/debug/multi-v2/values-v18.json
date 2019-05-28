@@ -4,7 +4,7 @@
             "outputFile": "/Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "/Users/luqihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/aac475d6f248898469d94d17f630268f/res/values-v18/values-v18.xml",
+                    "source": "/Users/luqihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0300e7d519a9f3c4228ea313f3eab581/res/values-v18/values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

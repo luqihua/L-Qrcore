@@ -1,58 +1,60 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-24:12
-MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-47:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/aac475d6f248898469d94d17f630268f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/0f653e18548ad5a883bc54463bb62bfc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/340816c653e01c2c05ca74a1dc28aaf8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c1c711cee6b58684820965d0bfe0dc9b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/335eb374babd1519e62dad11aa7e8fa5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/19962a53641fc386f322d2139dc643f5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/5aa538a611ad4fe8d29b7505050ecf4e/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b985b7df4d99085bf440f90726134736/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5f95f2e683556adb7ec7e3a96f1c6ea5/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/58eb23d839297237ecd5c27e958b1206/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/769f533f5b426473ac748315f5511d33/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-48:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0300e7d519a9f3c4228ea313f3eab581/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/823adebaeb69f98fbb97fe6a1f1e627a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/b400033eccff40f22ae6282c6fd73974/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a9a199869d7cd62ccb7162b74bc99633/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e0e4212bf2190365838c55b60642dcf1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/cf285c8be9f77ad10f9803ad12d38d50/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/423f43003b22898895946842df089892/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/91c03109c0c36f570b0c8bdcd7bd8607/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/ee88773fec8b5dacbc494dd84e3408da/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/32e79efcc47b61a0950284891a28a2c0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7268962c1f2473ca713d5e3f2beefb6c/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:3:5-24
 		INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml
 		INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml
-		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-25:12
 		INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml
-		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:1-25:12
 		INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.CAMERA
 ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:5:5-65
-MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:5-65
-MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:10:5-65
+MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
 	android:name
 		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:5:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:6:5-81
-MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:5-81
-MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:5-81
+MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-81
+MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-81
 	android:name
 		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:6:22-78
 application
-ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:8:5-22:19
-MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:5-45:19
-MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:38:5-45:19
+ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:8:5-23:19
+MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-46:19
+MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-46:19
 	android:supportsRtl
 		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:13:9-35
 	android:label
 		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:11:9-41
+	android:testOnly
+		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:14:9-33
 	android:roundIcon
 		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:12:9-54
 	android:icon
@@ -60,49 +62,53 @@ MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/l
 	android:allowBackup
 		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:15:9-40
 activity#lu.sample.MainActivity
-ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:15:19-47
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:16:13-20:29
+		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:16:19-47
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:18:25-66
+action#android.intent.action.VIEW
+ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:19:17-77
+ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml
 INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml
-MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:6:5-8:41
-MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/aac475d6f248898469d94d17f630268f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/aac475d6f248898469d94d17f630268f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/0f653e18548ad5a883bc54463bb62bfc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/0f653e18548ad5a883bc54463bb62bfc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/340816c653e01c2c05ca74a1dc28aaf8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/340816c653e01c2c05ca74a1dc28aaf8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c1c711cee6b58684820965d0bfe0dc9b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c1c711cee6b58684820965d0bfe0dc9b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/335eb374babd1519e62dad11aa7e8fa5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/335eb374babd1519e62dad11aa7e8fa5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/19962a53641fc386f322d2139dc643f5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/19962a53641fc386f322d2139dc643f5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/5aa538a611ad4fe8d29b7505050ecf4e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/5aa538a611ad4fe8d29b7505050ecf4e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b985b7df4d99085bf440f90726134736/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/b985b7df4d99085bf440f90726134736/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5f95f2e683556adb7ec7e3a96f1c6ea5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5f95f2e683556adb7ec7e3a96f1c6ea5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/58eb23d839297237ecd5c27e958b1206/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/58eb23d839297237ecd5c27e958b1206/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/769f533f5b426473ac748315f5511d33/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/769f533f5b426473ac748315f5511d33/AndroidManifest.xml:20:5-44
+MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0300e7d519a9f3c4228ea313f3eab581/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/0300e7d519a9f3c4228ea313f3eab581/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/823adebaeb69f98fbb97fe6a1f1e627a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/823adebaeb69f98fbb97fe6a1f1e627a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/b400033eccff40f22ae6282c6fd73974/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/b400033eccff40f22ae6282c6fd73974/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a9a199869d7cd62ccb7162b74bc99633/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/a9a199869d7cd62ccb7162b74bc99633/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e0e4212bf2190365838c55b60642dcf1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e0e4212bf2190365838c55b60642dcf1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/cf285c8be9f77ad10f9803ad12d38d50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/cf285c8be9f77ad10f9803ad12d38d50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/423f43003b22898895946842df089892/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/423f43003b22898895946842df089892/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/91c03109c0c36f570b0c8bdcd7bd8607/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/91c03109c0c36f570b0c8bdcd7bd8607/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/ee88773fec8b5dacbc494dd84e3408da/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/ee88773fec8b5dacbc494dd84e3408da/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/32e79efcc47b61a0950284891a28a2c0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/32e79efcc47b61a0950284891a28a2c0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7268962c1f2473ca713d5e3f2beefb6c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/luqihua/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7268962c1f2473ca713d5e3f2beefb6c/AndroidManifest.xml:20:5-44
 INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml
 INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -114,58 +120,58 @@ INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/
 		ADDED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml
 		INJECTED from /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/sample/src/main/AndroidManifest.xml
 uses-feature#android.hardware.camera
-ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-15:36
+ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-16:36
 	android:required
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-33
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-33
 	android:name
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:9-47
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-47
 uses-feature#android.hardware.camera.front
-ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-18:36
+ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-19:36
 	android:required
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:9-33
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-33
 	android:name
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:9-53
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-53
 uses-feature#android.hardware.camera.autofocus
-ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:21:5-23:36
+ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:5-24:36
 	android:required
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:23:9-33
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-33
 	android:name
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:22:9-57
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-57
 uses-feature#android.hardware.camera.flash
-ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:24:5-26:36
+ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-27:36
 	android:required
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:9-33
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-33
 	android:name
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:9-53
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:9-53
 uses-feature#android.hardware.screen.landscape
-ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:5-29:36
+ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:5-30:36
 	android:required
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:29:9-33
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:9-33
 	android:name
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:28:9-57
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-57
 uses-feature#android.hardware.wifi
-ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:30:5-32:36
+ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:5-33:36
 	android:required
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:9-33
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-33
 	android:name
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:31:9-45
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:9-45
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:5-75
+ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:5-75
 	android:name
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:22-72
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:5-80
+ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:5-80
 	android:name
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:22-77
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:22-77
 activity#com.journeyapps.barcodescanner.CaptureActivity
-ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:39:9-44:63
+ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-45:63
 	android:clearTaskOnLaunch
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:41:13-45
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-45
 	android:stateNotNeeded
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:42:13-42
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-42
 	android:windowSoftInputMode
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:44:13-60
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-60
 	android:theme
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:43:13-54
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-54
 	android:name
-		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/manifests/full/debug/AndroidManifest.xml:40:13-74
+		ADDED from [:lib-zxingcore] /Users/luqihua/AndroidStudioProjects/lib/L-Qrcore/lib-zxingcore/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-74

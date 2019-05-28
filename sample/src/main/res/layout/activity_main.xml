@@ -32,6 +32,30 @@
         android:onClick="spotQRCode"
         android:text="识别图中二维码" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="输出结果："
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_scanner_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="扫描结果显示" />
+
+    </LinearLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -44,5 +68,6 @@
             android:layout_gravity="center" />
 
     </FrameLayout>
+
 
 </LinearLayout>
