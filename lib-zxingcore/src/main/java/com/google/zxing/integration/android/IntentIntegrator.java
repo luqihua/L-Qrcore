@@ -22,9 +22,11 @@ import android.app.Fragment;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Parcelable;
 
 import com.google.zxing.client.android.Intents;
 import com.journeyapps.barcodescanner.CaptureActivity;
+import com.journeyapps.barcodescanner.Size;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -34,7 +36,6 @@ import java.util.List;
 import java.util.Map;
 
 /**
- *
  * @author Sean Owen
  * @author Fred Lin
  * @author Isaac Potoczny-Jones
@@ -70,6 +71,7 @@ public class IntentIntegrator {
     protected Class<?> getDefaultCaptureActivity() {
         return CaptureActivity.class;
     }
+
     /**
      * @param activity {@link Activity} invoking the integration
      */
@@ -135,6 +137,22 @@ public class IntentIntegrator {
     public final IntentIntegrator setPrompt(String prompt) {
         if (prompt != null) {
             addExtra(Intents.Scan.PROMPT_MESSAGE, prompt);
+        }
+        return this;
+    }
+
+
+    // TODO: 2019/5/29
+
+    /**
+     * 设置扫描框的大小
+     *
+     * @param size
+     * @return
+     */
+    public final IntentIntegrator setFrameSize(Size size) {
+        if (size != null) {
+            addExtra(Intents.Scan.SCAN_FRAME_SIZE, size);
         }
         return this;
     }
@@ -205,6 +223,7 @@ public class IntentIntegrator {
     /**
      * Initiates a scan for all known barcode types with the default camera.
      * And starts a timer to finish on timeout
+     *
      * @return Activity.RESULT_CANCELED and true on parameter TIMEOUT.
      */
     public IntentIntegrator setTimeout(long timeout) {
@@ -339,6 +358,8 @@ public class IntentIntegrator {
                 intent.putExtra(key, (Float) value);
             } else if (value instanceof Bundle) {
                 intent.putExtra(key, (Bundle) value);
+            } else if (value instanceof Parcelable) {
+                intent.putExtra(key, (Parcelable) value);
             } else {
                 intent.putExtra(key, value.toString());
             }

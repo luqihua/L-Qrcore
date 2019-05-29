@@ -3,11 +3,16 @@ package com.journeyapps.barcodescanner;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.widget.ContentLoadingProgressBar;
+import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -59,6 +64,9 @@ public class CaptureActivity extends Activity implements DecoratedBarcodeView.To
 
     private void initView() {
         mBarcodeScannerView = findViewById(R.id.zxing_barcode_scanner);
+
+        mBarcodeScannerView.getBarcodeView().setFramingRectSize(calculatorFramingRectSize());
+
         mSwitchLightView = findViewById(R.id.btn_switch_light);
         mOpenAlbumView = findViewById(R.id.btn_open_album);
         mProgressBar = findViewById(R.id.progress);
@@ -68,6 +76,26 @@ public class CaptureActivity extends Activity implements DecoratedBarcodeView.To
         }
 
         mProgressBar.setVisibility(View.GONE);
+    }
+
+    /**
+     * 设置默认的扫码框大小，如果用户在Intent中传递了size，在initCaptureManager方法中会再次设置
+     *
+     * @return
+     */
+    private Size calculatorFramingRectSize() {
+
+        DisplayMetrics outMetrics = Resources.getSystem().getDisplayMetrics();
+        int realW, realH;
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            //横屏
+            float w_h_ratio = outMetrics.widthPixels * 1.0f / outMetrics.heightPixels;
+            realW = outMetrics.widthPixels * 3 / 5;
+            realH = (int) (realW / w_h_ratio);
+        } else {
+            realH = realW = outMetrics.widthPixels * 3 / 5;
+        }
+        return new Size(realW, realH);
     }
 
     private void initListener() {

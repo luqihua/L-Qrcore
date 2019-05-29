@@ -1,11 +1,13 @@
 package com.journeyapps.barcodescanner;
 
+import android.os.Parcel;
+import android.os.Parcelable;
 import android.support.annotation.NonNull;
 
 /**
  *
  */
-public class Size implements Comparable<Size> {
+public class Size implements Comparable<Size>, Parcelable {
     public final int width;
     public final int height;
 
@@ -114,4 +116,32 @@ public class Size implements Comparable<Size> {
         result = 31 * result + height;
         return result;
     }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeInt(this.width);
+        dest.writeInt(this.height);
+    }
+
+    protected Size(Parcel in) {
+        this.width = in.readInt();
+        this.height = in.readInt();
+    }
+
+    public static final Parcelable.Creator<Size> CREATOR = new Parcelable.Creator<Size>() {
+        @Override
+        public Size createFromParcel(Parcel source) {
+            return new Size(source);
+        }
+
+        @Override
+        public Size[] newArray(int size) {
+            return new Size[size];
+        }
+    };
 }

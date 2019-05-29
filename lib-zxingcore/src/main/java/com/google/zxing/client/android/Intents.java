@@ -28,6 +28,10 @@ public final class Intents {
 
     public static final class Scan {
         /**
+         * 扫描框大小设置
+         */
+        public static final String SCAN_FRAME_SIZE = "com.google.zxing.client.android.SCAN_FRAME_SIZE";
+        /**
          * Send this intent to open the Barcodes app in scanning mode, find a barcode, and return
          * the results.
          */

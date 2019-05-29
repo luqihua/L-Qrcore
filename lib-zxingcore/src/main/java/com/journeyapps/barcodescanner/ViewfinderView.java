@@ -142,6 +142,10 @@ public class ViewfinderView extends View {
         Rect previewFramingRect = cameraPreview.getPreviewFramingRect();
         if (framingRect != null && previewFramingRect != null) {
             this.framingRect = framingRect;
+            // TODO: 2019/5/29  
+//            this.framingRect.left-=100;
+//            this.framingRect.right-=100;
+            
             this.previewFramingRect = previewFramingRect;
         }
     }

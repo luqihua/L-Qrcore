@@ -185,6 +185,11 @@ public class CaptureManager {
             if (intent.getBooleanExtra(Intents.Scan.BARCODE_IMAGE_ENABLED, false)) {
                 returnBarcodeImagePath = true;
             }
+            //重新设置扫码框大小
+            if (intent.hasExtra(Intents.Scan.SCAN_FRAME_SIZE)) {
+                Size size = intent.getParcelableExtra(Intents.Scan.SCAN_FRAME_SIZE);
+                barcodeView.getBarcodeView().setFramingRectSize(size);
+            }
         }
     }
 
